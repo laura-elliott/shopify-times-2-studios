@@ -70,11 +70,11 @@
             autocomplete="company"
             type="text"
             id="ContactForm-company"
-            name="contact[{{ 'templates.contact.form.company' | t }}]"
+            name="contact[company]"
             value="{% if form.company %}{{ form.company }}{% elsif customer %}{{ customer.company }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.company' | t }}"
+            placeholder="Company"
           >
-          <label class="field__label" for="ContactForm-company">{{ 'templates.contact.form.company' | t }}</label>
+          <label class="field__label" for="ContactForm-company">Company</label>
         </div>
         <div class="field field--with-error">
           <input
