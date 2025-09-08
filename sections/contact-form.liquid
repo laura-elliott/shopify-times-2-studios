@@ -141,15 +141,21 @@
     </div>
       <div class="budget">
         <p style="margin-top:0;"><strong>Budget:</strong></p>
-        <select name="custom_dropdown" id="custom_dropdown">
-          <option value="Under 1000">Under £1,000</option>
-          <option value="1000-5000">£1,000 - £5,000 </option>
-          <option value="5000-10000">£5,000 - £10,000</option>
-          <option value="Over 10000">£10,000+</option>
-          <option value="Not sure">Not sure</option>
-        </select>
-        <label for="ContactForm-new-customer" class="radio-label"> 
-<input type="radio" id="ContactForm-new-customer" name="contact[Customer Type]" value="New" class="radio-button" checked="checked" > Under £1,000 </label> 
+        <label for="ContactForm-Under1000" class="radio-label"> 
+        <input type="radio" id="ContactForm-Under1000" name="contact[Budget]" value="New" class="radio-button" checked="checked" >
+        Under £1,000 </label> 
+        <label for="ContactForm-1000-5000" class="radio-label"> 
+        <input type="radio" id="ContactForm-1000-5000" name="contact[Budget]" value="New" class="radio-button" checked="checked" >
+        £1,000 - £5,000 </label> 
+        <label for="ContactForm-5000-10000" class="radio-label"> 
+        <input type="radio" id="ContactForm-5000-10000" name="contact[Budget]" value="New" class="radio-button" checked="checked" >
+        £5,000 - £10,000 </label> 
+        <label for="ContactForm-Over10000" class="radio-label"> 
+        <input type="radio" id="ContactForm-Over10000" name="contact[Budget]" value="New" class="radio-button" checked="checked" >
+        £10,000+ </label> 
+        <label for="ContactForm-NotSure" class="radio-label"> 
+        <input type="radio" id="ContactForm-NotSure" name="contact[Budget]" value="New" class="radio-button" checked="checked" >
+        Not sure </label> 
     </div>
       <div class="field">
         <textarea
